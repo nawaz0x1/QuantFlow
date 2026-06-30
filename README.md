@@ -7,10 +7,6 @@
 *QuantFlow: overall architecture (left) and bidirectional Mamba decoder layer (right)*
 
 
-![Proposed Federated Training and Model Adaptation Pipeline](figures/Workflow.png)
-*Proposed Federated Training and Model Adaptation Pipeline*
-
-
 ## Key Contributions
 
 * **Bidirectional Mamba Decoders:** Replaces $O(N^2)$ Transformer attention with 6 stacked forward/reverse Mamba layers, achieving linear complexity and superior long-term dependency extraction[cite: 6].
