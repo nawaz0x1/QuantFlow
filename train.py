@@ -6,8 +6,9 @@ import torch
 import pickle
 from tqdm import tqdm
 from torch.utils.data import DataLoader
-from model import ModelConfig, QuantFlow, QuantileLoss
-from dataset import TimeSeriesDataset
+from src.config import ModelConfig
+from src.architecture import QuantFlow, QuantileLoss
+from src.dataset import TimeSeriesDataset
 
 
 def get_data(file="data.pkl"):
