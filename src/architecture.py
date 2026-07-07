@@ -6,7 +6,7 @@ import torch.nn as nn
 from mamba_ssm import Mamba
 import torch.nn.functional as F
 from typing import List
-from config import ModelConfig
+from src.config import ModelConfig
 
 
 class DataEmbedding_inverted(nn.Module):
