@@ -1,8 +1,8 @@
 # 🌊 QuantFlow
 
-**A Federated Post-Transformer Foundation Model for Probabilistic Time-Series Forecasting**
+**A Federated Mamba-Based Post-Transformer Foundation Model for Time-Series Forecasting**
 
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)](https://pytorch.org/) [![Status](https://img.shields.io/badge/status-research-orange)]()
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)](https://pytorch.org/) [![Status](https://img.shields.io/badge/status-research-orange)]() [![arXiv](https://img.shields.io/badge/arXiv-2607.02632-b31b1b)](https://arxiv.org/abs/2607.02632)
 
 QuantFlow is a probabilistic time-series forecasting framework built around **bidirectional Mamba state-space decoders**, an **inverted embedding strategy**, **quantile regression**, and **federated training**. It replaces quadratic Transformer attention with linear-complexity selective state-space modeling, while still capturing rich cross-variable interactions and producing calibrated uncertainty estimates rather than single-point forecasts.
 
@@ -180,10 +180,19 @@ Removing either core architectural component degrades performance across all dat
 If you find this code useful in your research, please cite:
 
 ```bibtex
-will be added
+@misc{haider2026quantflowfederatedmambabasedposttransformer,
+      title={QuantFlow: A Federated Mamba-Based Post-Transformer Foundation Model for Time-Series Forecasting}, 
+      author={Shah Nawaz Haider and Steve Austin and Arnab Barua and Sarowar Morshed Shawon and Hadaate Ullah},
+      year={2026},
+      eprint={2607.02632},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2607.02632}, 
+}
 ```
 
 ## Authors
 
 - **Shah Nawaz Haider** & **Steve Austin** _Department of Computer Science and Engineering, University of Science and Technology Chittagong (USTC)_
 - **Arnab Barua** & **Sarowar Morshed Shawon** _Department of Electrical and Electronic Engineering, USTC_
+- **Hadaate Ullah** _Faculty of Science, Engineering and Technology, University of Science and Technology Chittagong (USTC)_
